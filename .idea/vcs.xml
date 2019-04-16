@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/TreeIterationAssets" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tree-iteration.wiki" vcs="Git" />
   </component>
 </project>
