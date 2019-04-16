@@ -1,0 +1,7 @@
+<component name="MarkdownNavigator.ProfileManager">
+  <settings default="" pdf-export="" plain-text-search-scope="Project Files">
+    <scope-profiles>
+      <element scope="JavDoc Overview" profile="JavaDoc Overview" />
+    </scope-profiles>
+  </settings>
+</component>

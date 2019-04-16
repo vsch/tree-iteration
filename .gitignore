@@ -1,0 +1,15 @@
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+
+# Maven
+target/
+/.idea/workspace.xml
+/tree-iteration.wiki
+/treeIterationAssets/
+/update-plugin.sh
+/out/
+/.idea/markdown-exported-files.xml

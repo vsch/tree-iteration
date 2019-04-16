@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="JavDoc Overview" pattern="file[tree-iteration-test-suite]:*/javadoc/*.md||file[tree-iteration-util]:*/javadoc/*.md" />
+</component>

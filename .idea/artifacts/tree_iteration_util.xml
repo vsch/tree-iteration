@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="tree-iteration-util">
+    <output-path>$PROJECT_DIR$/out/artifacts</output-path>
+    <root id="archive" name="tree-iteration-util.jar">
+      <element id="module-output" name="tree-iteration-util" />
+    </root>
+  </artifact>
+</component>

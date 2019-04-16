@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/treeIterationAssets/Samples/Samples.iml" filepath="$PROJECT_DIR$/treeIterationAssets/Samples/Samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tree-iteration.iml" filepath="$PROJECT_DIR$/tree-iteration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tree-iteration-test-suite/tree-iteration-test-suite.iml" filepath="$PROJECT_DIR$/tree-iteration-test-suite/tree-iteration-test-suite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tree-iteration-util/tree-iteration-util.iml" filepath="$PROJECT_DIR$/tree-iteration-util/tree-iteration-util.iml" />
+    </modules>
+  </component>
+</project>
