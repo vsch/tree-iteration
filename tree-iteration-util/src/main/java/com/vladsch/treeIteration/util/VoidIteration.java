@@ -17,14 +17,14 @@ public interface VoidIteration {
     /**
      * Continue with the next iteration of the given recursion level
      *
-     * @param recursionLevel 0 current, <0 previous recursion levels, >0 actual recursion level
+     * @param recursionLevel 0 current, &lt;0 previous recursion levels, gt;0 actual recursion level
      */
     void doContinue(int recursionLevel);
 
     /**
      * Break out of given recursion level
      *
-     * @param recursionLevel 0 current, <0 previous recursion levels, >0 actual recursion level
+     * @param recursionLevel 0 current, lt;0 previous recursion levels, gt;0 actual recursion level
      */
     void doBreak(int recursionLevel);
 
@@ -75,6 +75,7 @@ public interface VoidIteration {
 
     /**
      * Run the passed code only if the current iteration is not complete
+     *
      * @param runnable to run
      */
     void ifIncomplete(@NotNull RunnableValue runnable);
