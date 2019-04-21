@@ -9,7 +9,7 @@ filters.
 ### Requirements
 
 * Java 8 or above
-* The core has no dependencies
+* The core has dependency on `flexmark-java-utils` library.
 
 [![Build status](https://travis-ci.org/vsch/tree-iteration.svg?branch=master)](https://travis-ci.org/vsch/tree-iteration)
 [![Maven Central status](https://img.shields.io/maven-central/v/com.vladsch.tree-iteration/tree-iteration.svg)](https://search.maven.org/search?q=g:com.vladsch.tree-iteration)
