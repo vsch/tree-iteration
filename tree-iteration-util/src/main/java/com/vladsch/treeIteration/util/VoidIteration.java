@@ -1,8 +1,9 @@
 package com.vladsch.treeIteration.util;
 
-import com.vladsch.flexmark.util.RunnableValue;
 import com.vladsch.flexmark.util.options.MutableDataHolder;
 import org.jetbrains.annotations.NotNull;
+
+import java.util.function.Supplier;
 
 public interface VoidIteration {
     Object NULL = new Object();
@@ -78,7 +79,7 @@ public interface VoidIteration {
      *
      * @param runnable to run
      */
-    void ifIncomplete(@NotNull RunnableValue runnable);
+    void ifIncomplete(@NotNull Runnable runnable);
 
     /**
      * @return times through the loop of the current recursion level, includes skipped elements due to filtering

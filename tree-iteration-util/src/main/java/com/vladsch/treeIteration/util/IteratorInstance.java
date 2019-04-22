@@ -1,6 +1,5 @@
 package com.vladsch.treeIteration.util;
 
-import com.vladsch.flexmark.util.RunnableValue;
 import com.vladsch.flexmark.util.options.MutableDataHolder;
 import com.vladsch.flexmark.util.options.MutableDataSet;
 import org.jetbrains.annotations.NotNull;
@@ -9,6 +8,7 @@ import org.slf4j.Logger;
 
 import java.util.Stack;
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 final public class IteratorInstance<N, R> implements ValueIteration<R> {
     final static private Logger LOG = TreeIterator.LOG;
@@ -236,7 +236,7 @@ final public class IteratorInstance<N, R> implements ValueIteration<R> {
     }
 
     @Override
-    public void ifIncomplete(@NotNull final RunnableValue runnable) {
+    public void ifIncomplete(@NotNull final Runnable runnable) {
         if (isIncomplete()) {
             runnable.run();
         }
