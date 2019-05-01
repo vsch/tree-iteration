@@ -2,9 +2,7 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/TreeIterationAssets/support" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/TreeIterationAssets/youtrack" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/TreeIterationAssets/issues" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/TreeIterationAssets/doc" type="java-test-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
