@@ -1,4 +1,4 @@
-package com.vladsch.treeIteration.util;
+package com.vladsch.tree.util;
 
 import org.junit.runners.Suite;
 

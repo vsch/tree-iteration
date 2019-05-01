@@ -1,8 +1,8 @@
-package com.vladsch.treeIteration.util;
+package com.vladsch.tree.iteration;
 
 import org.jetbrains.annotations.NotNull;
 
-public interface ValueIterationConsumer<N, R> extends IterationConsumer<N>  {
+public interface ValueIterationConsumer<N, R> extends IterationConsumer<N> {
     void accept(@NotNull N it, @NotNull ValueIteration<R> iteration);
 
     // before start of all iterations

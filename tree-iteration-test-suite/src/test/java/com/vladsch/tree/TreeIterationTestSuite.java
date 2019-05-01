@@ -1,6 +1,6 @@
-package com.vladsch.treeIteration;
+package com.vladsch.tree;
 
-import com.vladsch.treeIteration.util.UtilsTestSuite;
+import com.vladsch.tree.util.UtilsTestSuite;
 import org.junit.runners.Suite;
 
 @org.junit.runner.RunWith(Suite.class)

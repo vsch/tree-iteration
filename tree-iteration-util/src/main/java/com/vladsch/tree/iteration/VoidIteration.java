@@ -1,9 +1,7 @@
-package com.vladsch.treeIteration.util;
+package com.vladsch.tree.iteration;
 
-import com.vladsch.flexmark.util.options.MutableDataHolder;
+import com.vladsch.tree.data.MutableDataHolder;
 import org.jetbrains.annotations.NotNull;
-
-import java.util.function.Supplier;
 
 public interface VoidIteration {
     Object NULL = new Object();

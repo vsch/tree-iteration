@@ -1,14 +1,13 @@
-package com.vladsch.treeIteration.util;
+package com.vladsch.tree.iteration;
 
-import com.vladsch.flexmark.util.options.MutableDataHolder;
-import com.vladsch.flexmark.util.options.MutableDataSet;
+import com.vladsch.tree.data.MutableDataHolder;
+import com.vladsch.tree.data.MutableDataSet;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
 
 import java.util.Stack;
 import java.util.function.Predicate;
-import java.util.function.Supplier;
 
 final public class IteratorInstance<N, R> implements ValueIteration<R> {
     final static private Logger LOG = TreeIterator.LOG;

@@ -1,4 +1,4 @@
-package com.vladsch.treeIteration.util;
+package com.vladsch.tree.iteration;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -17,7 +17,6 @@ public class VoidToValueIConsumerAdapter<N, R> implements ValueIterationConsumer
     @Override
     public void beforeStart(@NotNull final ValueIteration<R> iteration) {
         myConsumer.beforeStart(iteration);
-
     }
 
     @Override
@@ -28,7 +27,6 @@ public class VoidToValueIConsumerAdapter<N, R> implements ValueIterationConsumer
     @Override
     public void endRecursion(@NotNull final VoidIteration iteration) {
         myConsumer.endRecursion(iteration);
-
     }
 
     @Override

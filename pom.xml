@@ -5,7 +5,7 @@
 
     <groupId>com.vladsch.tree-iteration</groupId>
     <artifactId>tree-iteration</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <name>tree-iteration</name>
     <description>
         Java library for iteration over tree structures

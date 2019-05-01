@@ -1,4 +1,4 @@
-package com.vladsch.treeIteration.util;
+package com.vladsch.tree.iteration;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -65,7 +65,6 @@ public class ValueIterationAdapterImpl<N, T> implements ValueIterationAdapter<N,
         @Override
         public void endRecursion(@NotNull final VoidIteration iteration) {
             myConsumer.endRecursion(iteration);
-
         }
 
         @Override

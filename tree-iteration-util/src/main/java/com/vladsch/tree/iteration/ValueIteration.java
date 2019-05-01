@@ -1,4 +1,4 @@
-package com.vladsch.treeIteration.util;
+package com.vladsch.tree.iteration;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -12,10 +12,10 @@ public interface ValueIteration<R> extends VoidIteration {
 
     /**
      * @return true if the current loop result value was never set (ie. only set at loop instantiation with
-     * defaultValue)
-     * <p>
-     * NOTE: does not test current value with equality to default value, set by {@link #setResult(Object)} or {@link
-     * #Return(Object)}
+     *         defaultValue)
+     *         <p>
+     *         NOTE: does not test current value with equality to default value, set by {@link #setResult(Object)} or {@link
+     *         #Return(Object)}
      */
     boolean isDefaultResult();       // true if value never set other than initial default setting
 
@@ -26,7 +26,7 @@ public interface ValueIteration<R> extends VoidIteration {
     R getDefaultValue();
 
     /**
-     * @return  current result value
+     * @return current result value
      */
     @NotNull
     R getResult();
@@ -34,7 +34,7 @@ public interface ValueIteration<R> extends VoidIteration {
     /**
      * Set result value and terminate all recursions
      *
-     * @param value     value to return for the result of the loop
+     * @param value value to return for the result of the loop
      */
     void Return(@NotNull R value);
 }
