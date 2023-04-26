@@ -1,10 +1,10 @@
 tree-iteration
 ==============
 
+This library was integrated into flexmark-tree-iteration library. This library is no longer maintained.
+
 **tree-iteration-util** Used to iterate over tree structure elements using node class or value
 filters.
-
-[![GitQ](https://gitq.com/badge.svg)](https://gitq.com/vsch/tree-iteration)
 
 ### Requirements
 
